@@ -1,0 +1,46 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Overview - Important notes}{1}{section.1}}
+\newlabel{sec:overview}{{1}{1}{Overview - Important notes}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Correctness of filters}{2}{section.2}}
+\newlabel{sec:filters}{{2}{2}{Correctness of filters}{section.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces SIFT descriptors visualized on the built-in ``peppers" image.\relax }}{2}{figure.caption.2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:siftVis}{{1}{2}{SIFT descriptors visualized on the built-in ``peppers" image.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Applying the filterBank filters on the built-in ``peppers" image. Numbering of filters begins from top-left and proceeds in row-major order. Consult \texttt  {filterBank.m} for details.\relax }}{3}{figure.caption.3}}
+\newlabel{fig:filterBankVis}{{2}{3}{Applying the filterBank filters on the built-in ``peppers" image. Numbering of filters begins from top-left and proceeds in row-major order. Consult \texttt {filterBank.m} for details.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results with initial set-up and minor modifications}{4}{section.3}}
+\newlabel{sec:initSetup}{{3}{4}{Results with initial set-up and minor modifications}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}SIFT features}{4}{subsection.3.1}}
+\newlabel{sec:initSetupSIFT}{{3.1}{4}{SIFT features}{subsection.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Training and testing confusion matrices for the default problem set configuration.\relax }}{4}{figure.caption.4}}
+\newlabel{fig:initSetupNoWeights}{{3}{4}{Training and testing confusion matrices for the default problem set configuration.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Training and testing confusion matrices for the default problem set set-up with weighting of classes.\relax }}{5}{figure.caption.5}}
+\newlabel{fig:initSetupWithWeights}{{4}{5}{Training and testing confusion matrices for the default problem set set-up with weighting of classes.\relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Per-class and overall accuracies for the default set-up of the problem set with minor modifications. Note the improvement of results for class \texttt  {rhino} when local encoding is used, as well as the overall improvement of the classification accuracy when we weight the classification problem (all those points of emphasis are \textbf  {boldfaced}). The ``Overall" accuracy for the $3^{rd}$ column just happens to be the same as for the class \texttt  {rhino} (33.33\%), i.e this is not a typo.\relax }}{5}{table.caption.6}}
+\newlabel{tbl:initSetupResPerClass}{{1}{5}{Per-class and overall accuracies for the default set-up of the problem set with minor modifications. Note the improvement of results for class \texttt {rhino} when local encoding is used, as well as the overall improvement of the classification accuracy when we weight the classification problem (all those points of emphasis are \textbf {boldfaced}). The ``Overall" accuracy for the $3^{rd}$ column just happens to be the same as for the class \texttt {rhino} (33.33\%), i.e this is not a typo.\relax }{table.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Training and testing confusion matrices for the default problem set configuration with weighting of classes and local instead of nearest neighbor encoding. Despite the fact that some classes can do better than others individually, the overall accuracy for this default set-up has dropped by approx. 30\% on the test set.\relax }}{6}{figure.caption.7}}
+\newlabel{fig:initSetupWithLE}{{5}{6}{Training and testing confusion matrices for the default problem set configuration with weighting of classes and local instead of nearest neighbor encoding. Despite the fact that some classes can do better than others individually, the overall accuracy for this default set-up has dropped by approx. 30\% on the test set.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}FilterBank features}{6}{subsection.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Confusion matrices for initial problem set configuration modified for extraction of FilterBank instead of SIFT features. Left: Testing accuracy when nearest neighbor encoding is used. Right: Testing accuracy when local encoding is used.\relax }}{7}{figure.caption.8}}
+\newlabel{fig:initSetupWithFB}{{6}{7}{Confusion matrices for initial problem set configuration modified for extraction of FilterBank instead of SIFT features. Left: Testing accuracy when nearest neighbor encoding is used. Right: Testing accuracy when local encoding is used.\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results on entirety of Caltech dataset}{7}{section.4}}
+\newlabel{sec:fullCaltech}{{4}{7}{Results on entirety of Caltech dataset}{section.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The effect of (a) \texttt  {TrainRatio}, (b) \texttt  {DictRatioPerClass} and (c) \texttt  {numWords} on classification accuracy over the entire Caltech 101 dataset. To produce every plot, the other parameters were kept to their default values, e.g for (a) we kept \texttt  {dictRatioPerClass} equal to 0.5 and \texttt  {numWords} to 600. Best viewed in color.\relax }}{7}{figure.caption.9}}
+\newlabel{fig:fullCaltechGraphs}{{7}{7}{The effect of (a) \texttt {TrainRatio}, (b) \texttt {DictRatioPerClass} and (c) \texttt {numWords} on classification accuracy over the entire Caltech 101 dataset. To produce every plot, the other parameters were kept to their default values, e.g for (a) we kept \texttt {dictRatioPerClass} equal to 0.5 and \texttt {numWords} to 600. Best viewed in color.\relax }{figure.caption.9}{}}

@@ -1,0 +1,3 @@
+NN, SIFT, numWords = 600, trainRatio = 0.5, dRatioPerClass = 0.5, classSet = {pizza, platypus, pyramid, revolver, rhino}: Train=56.74%, Test = 45.83%
+
+rhino with le:36.666%, with sift: 6.6667%
