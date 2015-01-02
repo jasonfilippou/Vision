@@ -1,6 +1,5 @@
 %%% This is the script provided for us. I made minor modifications to
 %%% plot() to make the plots easier to read. 
-function test_normalized_cut_points()
 p1 = 2.5*rand(2,20);
 p2 = 2.5*rand(2,20) + repmat([3;2], 1, 20);
 p = [p1, p2];

@@ -1,8 +1,8 @@
-CANNY
+Canny
 =====
 
 
-### A MATLAB implementation of the classic Canny Edge Detector ###
+A MATLAB implementation of the classic Canny Edge Detector
 
 
 ###### Overview ######
@@ -27,7 +27,7 @@ test the algorithm.
 Running the script "canny" will load three images from the "images/" directory, perform edge detection and visualize the results.
 
 
-##### Contact #######
+###### Contact #######
 
 Contact Jason Filippou at jasonfil@cs.umd.edu for questions or concerns about the code.
 

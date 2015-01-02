@@ -1,14 +1,15 @@
 Texture Synthesis
 =================
 
-### A MATLAB implementation of the classic texture synthesis algorithm by Efros and Leung.
+A MATLAB implementation of the classic texture synthesis algorithm by Efros and Leung.
 
 
 ###### Overview #######
 
 "Texture Synthesis" is a set of MATLAB scripts and functions which implement the classic algorithm by Efros and Leung, published in ICCV '99. 
 
-##### Dependencies ######
+
+###### Dependencies ######
 
 The code has been tested on MATLAB R2014b on Windows and Linux, and needs only MATLAB's Image Processing toolbox to run.
 

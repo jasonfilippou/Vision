@@ -1,0 +1,20 @@
+# C-style object files
+*.[oa]
+
+# Backups
+*~
+*.bak
+
+# Python class files
+*.pyc
+
+# tex-related
+*.aux
+*.tex
+*.synctex.gz
+*.bib
+*.bbl
+*.toc
+
+
+
