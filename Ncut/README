@@ -1,0 +1,33 @@
+Ncut
+====
+
+A MATLAB implementation of Normalized Cut (Shi and Malik, PAMI 2000) for the problem of segmenting 2D point sets. 
+
+
+###### Overview ####
+
+Ncut implements the classic algorithm "Normalized Cut", published by Shi and Malik in ICCV 1997 and PAMI 2000. We implement the algorithm for segmenting point sets.
+This corresponds to the first bullet-point in section 4 of the PAMI paper.
+
+
+###### Dependencies #####
+
+The code has been implemented in MATLAB R2014b, and runs on both Linux and Windows 64-bit.
+
+
+###### Directory Structure ######
+
+The "images" directory contains some MATLAB plots produced by our algorithm during test runs. The top-level directory contains two MATLAB functions and one MATLAB script,
+both of which are adourned with helpful comments to aid understanding of the code.
+
+###### Running ######
+
+Running "test_normalized_cut_points" produces random two-dimensional data, runs the normalized cut algorithm, and then color-codes the different clusters discovered by the algorithm.
+The function "normalized_cut_points.m" controls the static threshold used to discretize the continuous solution found by the algorithm (see either paper for details of
+how the optimization works). The reader may employ different thresholds if the results appear unsatisfactory.
+
+
+###### Contact ######
+
+Contact Jason Filippou at jasonfil@cs.umd.edu for questions or concerns about the code.
+

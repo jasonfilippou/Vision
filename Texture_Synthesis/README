@@ -1,0 +1,30 @@
+Texture Synthesis
+=================
+
+### A MATLAB implementation of the classic texture synthesis algorithm by Efros and Leung.
+
+
+###### Overview #######
+
+"Texture Synthesis" is a set of MATLAB scripts and functions which implement the classic algorithm by Efros and Leung, published in ICCV '99. 
+
+##### Dependencies ######
+
+The code has been tested on MATLAB R2014b on Windows and Linux, and needs only MATLAB's Image Processing toolbox to run.
+
+
+##### Directory structure ######
+
+The "input_textures" and "output_textures" directories contain textures that can be used as seeds for synthesizing textures, as well as synthesized textures, respectively.
+The top-level directory contains a bunch of .m files, all of which have been thoroughly commented to aid the reader in understanding what the code does.
+
+###### Running #######
+
+Running "synthesize_textures" should load three seed textures from "input_textures" and synthesize textures which are subsequently stored in "output_textures". The current
+version of the code synthesizes a highly regular brick texture, a more stochastic rice texture, as well as some free text. For efficiency reasons, we synthesize textures
+of the same size (width, height) as the input texture.
+
+###### Contact #######
+
+Contact Jason Filippou at jasonfil@cs.umd.edu for questions or concerns about the code.
+

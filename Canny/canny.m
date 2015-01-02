@@ -34,4 +34,4 @@ subplot(1, 3, 3); imshow(TextH, []);
 title('Text');
 ha = axes('Position',[0 0 1 1],'Xlim',[0 1],'Ylim',[0 1],'Box','off','Visible','off','Units','normalized', 'clipping' , 'off');
 text(0.5, 0.95, '\bf Edge Detection results','HorizontalAlignment','center','VerticalAlignment', 'top', 'FontSize', 14);
-disp('Done. You may substitute the images used in this demo with more images in the "images" directory. Bye!');
+disp('Done. You may substitute the images used in this demo with more images from the "images" directory. Bye!');
